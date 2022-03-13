@@ -1,0 +1,11 @@
+.intro__list-item {
+    color: #ffffff;
+    margin: 0 0 2px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.intro__list-item:last-child {
+    margin: 0 0 0 0;
+}
