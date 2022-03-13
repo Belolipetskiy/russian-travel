@@ -1,0 +1,9 @@
+.lead__container {
+    display: grid;
+    margin: 0 auto;
+    justify-items: center;
+    overflow: hidden;
+    width: 100%;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: 1fr;
+}
