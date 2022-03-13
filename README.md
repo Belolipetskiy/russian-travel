@@ -7,7 +7,7 @@
 * HTML
 * CSS
 
-**Технологии**
+# Технологии
 
 * Flexbox-вёрстка
 * Grid Layout
