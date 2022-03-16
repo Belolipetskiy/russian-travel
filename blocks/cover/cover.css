@@ -1,16 +1,26 @@
 .cover {
-    max-width: 1184px;
-    margin: 0 auto 89px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 740px;
+    padding-bottom: 91px;
+    font-size: 0;
+    justify-content: center;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1200px) {
     .cover {
-        max-width: 100%;
+        min-height: 62.5vw;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 880px) {
     .cover {
-        margin: 0 auto 65px;
+        padding-bottom: 87px;
+    }
+}
+
+@media (max-width: 580px) {
+    .cover {
+        padding-bottom: 62px;
     }
 }

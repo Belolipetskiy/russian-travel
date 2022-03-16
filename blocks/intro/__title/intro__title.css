@@ -1,21 +1,17 @@
 .intro__title {
-    color: #ffffff;
-    margin: 0 0 40px;
+    max-width: 690px;
+    margin: 0;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
+    padding-bottom: 40px;
+    font-style: normal;
+    vertical-align: bottom;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .intro__title {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro__title {
-    min-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
+@media (max-width: 400px) {
+    .intro__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
