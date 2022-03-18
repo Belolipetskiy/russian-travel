@@ -4,16 +4,13 @@
 
 .footer__list-item:last-child {
     margin-right: 0;
+    margin-right: 0;
+    margin-bottom: 46px;
 }
 
 @media (max-width: 425px) {
     .footer__list-item {
         margin-right: 0;
         margin-bottom: 32px;
-    }
-
-    .footer__list-item:last-child {
-        margin-right: 0;
-        margin-bottom: 46px;
     }
 }
