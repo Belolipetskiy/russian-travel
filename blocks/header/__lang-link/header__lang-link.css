@@ -16,7 +16,7 @@
 }
 
 .header__lang-link:nth-child(2n) {
-    margin-left: 18px;
+    margin-left: 0;
 }
 
 .header__lang-link:hover {
