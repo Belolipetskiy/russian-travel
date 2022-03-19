@@ -6,6 +6,7 @@
     line-height: 28px;
     color: #fff;
     text-decoration: none;
+    margin-right: 18px;
 }
 
 @media screen and (max-width: 370px) {
@@ -15,7 +16,7 @@
     }
 }
 
-.header__lang-link:nth-child(2n) {
+.header__lang-link:last-of-type {
     margin-left: 0;
 }
 
